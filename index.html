@@ -38,23 +38,32 @@
 
         // 搜索标题的最大层级, 1 - 6
         depth: 2,
-      },
-      count:{
-    countable:true,
-    fontsize:'0.9em',
-    color:'rgb(90,90,90)',
-    language:'chinese',
-  }
-  plugins: [
-      EditOnGithubPlugin.create(docBase, docEditBase, title),
-    ]
+        },
+        count:{
+          countable:true,
+          fontsize:'0.9em',
+          color:'rgb(90,90,90)',
+          language:'chinese',
+        },
+        disqus: 'shortname',
+        share: {
+            reddit: true,
+            facebook: true,
+            twitter: true,
+            telegram: true,
+        },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+
+
+
  
 </body>
 </html>
