@@ -10,4 +10,4 @@
 - Instagram：[florencexflorence](https://www.instagram.com/florencexflorence/)
 
 [[Telegram]](https://t.me/+f17iDvsxfJhjOWY1)
-[[竹白]](https://shuoshuo.zhubai.love/)https://shuoshuo.zhubai.love/
+[[竹白]](https://shuoshuo.zhubai.love/)
