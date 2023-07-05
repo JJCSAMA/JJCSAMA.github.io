@@ -1,6 +1,22 @@
 <!-- _coverpage.md -->
 
-![My Image](_media/coverpage.png)
+<img src="media/coverpage.png" />
+
+img {
+  border-radius: 50%;
+}
+
+/* 控制图片大小 */
+img {
+  width: 100px; /* 设置图片宽度为 100 像素 */
+  height: 100px; /* 设置图片高度为 100 像素 */
+}
+
+/* 控制图片响应式大小 */
+img {
+  max-width: 100%; /* 设置图片最大宽度为父元素宽度 */
+  height: auto; /* 保持图片高度与宽度比例不变 */
+}
 
 # 随心所欲 Be you
 
